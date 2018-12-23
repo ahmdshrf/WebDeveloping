@@ -1,0 +1,72 @@
+body{
+	margin: 0px;
+}
+#product-overview{
+	background: pink;
+	color: white;
+	font-family: 'Anton', sans-serif;
+	width : 100%;
+	height : 525px;
+}
+#product-overview > h1 {
+	margin : 0px;
+}
+.section-title{
+	font-family: 'Black Han Sans', sans-serif;
+	color: green;
+}
+
+p {
+	font-family: 'Varela Round', sans-serif;
+}
+.main-header {
+	background: green;
+	padding: 5px 16px;
+}
+.main-header > div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.main-nav{
+	display: inline-block;
+	text-align: right;
+	width: calc(100% - 68px);
+}
+.main-nav__item {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.main-nav__item a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Varela Round', sans-serif;
+	padding: 3px 8px;
+}
+.main-div__brand{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 22px;
+}
+.main-nav__item a:hover,
+.main-nav__item a:active{
+	color: white;
+	border-bottom: 3px solid white;
+}
+
+.main-nav__item--CTA a{
+	color: black;
+	background: pink;
+	padding: 8px 16px;
+	border-radius: 8px;
+}
+.main-nav__item--CTA a:hover,
+.main-nav__item--CTA a:active{
+	color: pink;
+	background: white;
+	border: none;
+}
+
